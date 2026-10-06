@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminExpress</title>
+    <!-- Incluimos Boxicons o FontAwesome para los iconos de los inputs -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <!-- Columna Izquierda -->
+        <section class="left">
+            <h1>AdminExpress</h1>
+        </section>
+
+        <!-- Columna Derecha (Formulario) -->
+        <section class="login">
+            <header class="login-header">
+                <h2>Let's <span>Sign In</span>👇</h2>
+                <p>Hey. Enter your details to get sign in<br>to your account.</p>
+            </header>
+
+            <form>
+                <fieldset class="input-group">
+                    <legend>Email</legend>
+                    <p class="input-wrapper">
+                        <i class='bx bx-envelope'></i>
+                        <input type="email" id="email" placeholder="Enter Email" required>
+                    </p>
+                </fieldset>
+
+                <fieldset class="input-group">
+                    <legend>Password</legend>
+                    <p class="input-wrapper">
+                        <i class='bx bx-lock-alt'></i>
+                        <input type="password" id="password" placeholder="Enter Password" required>
+                        <i class='bx bx-hide toggle-password'></i>
+                    </p>
+                </fieldset>
+
+                <p class="form-actions">
+                    <a href="#" class="forgot-pass">Forgot password?</a>
+                </p>
+
+                <button type="submit" class="btn-signin">Sign In</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
